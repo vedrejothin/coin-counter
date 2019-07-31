@@ -16,7 +16,6 @@ make
 #include <algorithm>
 #include <limits.h>
 
-//parameters for the 4th question..
 #define MIN_VARIANCE 10
 #define MAX_VARIANCE 100 // change it to 87 for 6.jpg??
 #define MIN_BACK_SIZE 2000 // play with the number of pixels..
@@ -27,8 +26,6 @@ make
 #define edgeLower 30
 #define edgeUpper 80
 #define circleThreshold 110
-
-//params for third question
 
 //reducing the below threshold will give us more segments..
 #define segmentationThreshold 5
